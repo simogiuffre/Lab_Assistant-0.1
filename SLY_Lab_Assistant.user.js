@@ -6,9 +6,9 @@
 // @author       SLY w/ Contributions by SkyLove512, anthonyra, niofox
 // @match        https://*.labs.staratlas.com/
 // @require      https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/anchor-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/buffer-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/bs58-browserified.js
+// @require      https://raw.githubusercontent.com/simogiuffre/Lab_Assistant-0.1/main/anchor-browserified.js
+// @require      https://raw.githubusercontent.com/simogiuffre/Lab_Assistant-0.1/main/buffer-browserified.js
+// @require      https://raw.githubusercontent.com/simogiuffre/Lab_Assistant-0.1/main/bs58-browserified.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=staratlas.com
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -20,7 +20,7 @@
 
     let enableAssistant = false;
     let initComplete = false;
-    let rpcEndpoints = ['https://rpc.hellomoon.io/cfd5910f-fb7d-4489-9b32-f97193eceefd','https://solana-api.syndica.io/access-token/WPoEqWQ2auQQY1zHRNGJyRBkvfOLqw58FqYucdYtmy8q9Z84MBWwqtfVf8jKhcFh/rpc'];
+    let rpcEndpoints = ['https://solana-mainnet.g.alchemy.com/v2/GukJjioeT42Yjj3dxIXtMJh2R5B-uDaw','https://rpc.hellomoon.io/a083a97e-a9f5-4581-999a-60209c6759f4'];
     const priorityFee = 1; // Priority Fee added to each transaction in Lamports. Set to 0 (zero) to disable priority fees. 1 Lamport = 0.000000001 SOL
 
     const connectionProxy = {
